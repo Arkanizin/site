@@ -46,16 +46,22 @@ a:hover{
     width: 190px;
 }
 
-#banner{
+#slider{
     border-bottom: black solid 5px;
     width:100%;
     height: 500px;
+    position: relative;
     
 }
-#banner img{
+#slider img{
 
+    opacity: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    
+    position: absolute;   
+}
+
+#slider img.on{
+    opacity:1;
 }
