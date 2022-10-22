@@ -1,5 +1,6 @@
 body{
-    background-color: darkgrey;
+    background-color: rgb(224, 224, 224,0.7);
+    scroll-behavior: smooth;
 }
 
 header{
@@ -189,6 +190,11 @@ div.produtos-slider::-webkit-scrollbar-thumb{
     border-radius: 20px;
 
 }
+    h3.subtitulo1{
+        font-size: 22px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+ 
 
 
 
